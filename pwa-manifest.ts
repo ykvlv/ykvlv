@@ -1,9 +1,9 @@
 import { type ManifestOptions } from 'vite-plugin-pwa'
 
 export const manifest: Partial<ManifestOptions> = {
-  short_name: 'ykvlv-dev',
-  name: 'ykvlv dev',
-  start_url: '.',
+  short_name: 'ykvlv',
+  name: 'ykvlv',
+  description: 'personal website',
   theme_color: '#232323',
   background_color: '#ffffff',
   orientation: 'any',
