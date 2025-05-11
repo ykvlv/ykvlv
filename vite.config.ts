@@ -12,6 +12,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,svg}'],
+        navigateFallbackDenylist: [new RegExp('^/cv')],
       },
       manifest: manifest,
     }),

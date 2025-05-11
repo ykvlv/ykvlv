@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <div>
-        <a href="/cv/">
+        <a href="/cv/" target="_self" rel="noopener">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
