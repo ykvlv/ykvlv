@@ -5,6 +5,7 @@ import { manifest } from './pwa-manifest.ts'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [
     react(),
     VitePWA({
