@@ -1,7 +1,9 @@
 import { type ManifestOptions } from 'vite-plugin-pwa'
 
 export const manifest: Partial<ManifestOptions> = {
-  name: 'ykvlv-dev',
+  short_name: 'ykvlv-dev',
+  name: 'ykvlv dev',
+  start_url: '.',
   theme_color: '#232323',
   background_color: '#ffffff',
   orientation: 'any',
@@ -20,4 +22,5 @@ export const manifest: Partial<ManifestOptions> = {
       type: 'image/png',
     },
   ],
+  // TODO add screenshots
 }
